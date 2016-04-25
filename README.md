@@ -8,7 +8,7 @@ The script is written to work on the data provided in the assignment.  It requir
 1. The user has downloaded the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. The user has unzipped the data
 3. The user has set their working directory to the "UCI HAR Dataset" folder within the ZIP folder
-4. The user has installed the plyr and dplyr packages
+4. The user has installed the dplyr package
 
 When run, the script will pull data from the test and train folders, restructure and combine them, remove all variables except for the basic identifiers (subjectid, activity, and partition) that do not include the phrase "mean" or "std", and then create a new data frame which calculates the means of the mean and std variables at the subjectid/activity level.  It saves this data frame to a csv file in the working directory.
 
