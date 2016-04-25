@@ -6,7 +6,7 @@ This is my submission for the Coursera Getting and Cleaning Data Course Project.
 
 3. The rscript which generates the final data, titled "run_analysis.R"
 
-4. The output dataset, titled "getdata_project_output.csv", located at  gettingdata_courseproject/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/getdata_project_output.csv 
+4. The output dataset, titled "getdata_project_output.txt", located at   gettingdata_courseproject/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/getdata_project_output.txt 
 
 The script is written to work on the data provided in the assignment.  It requires the following:
 
