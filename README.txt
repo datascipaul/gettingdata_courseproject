@@ -1,6 +1,6 @@
 This is my submission for the Getting and Cleaning Data Course Project.  The submission includes 4 files:
 1. This README
-2. The codebook (filename)
+2. The codebook (Codebook.txt)
 3. The rscript which generates the final data, titled "run_analysis.R"
 4. The output dataset, titled "getdata_project_output.csv"
 
