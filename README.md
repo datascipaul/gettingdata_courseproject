@@ -16,7 +16,7 @@ The script is written to work on the data provided in the assignment.  It requir
 
 3. The user has set their working directory to the "UCI HAR Dataset" folder within the ZIP folder
 
-. The user has installed the dplyr package
+4. The user has installed the dplyr package
 
 When run, the script will pull data from the test and train folders, restructure and combine them, remove all variables except for the basic identifiers (subjectid, activity, and partition) that do not include the phrase "mean" or "std", and then create a new data frame which calculates the means of the mean and std variables at the subjectid/activity level.  It saves this data frame to a csv file in the working directory.
 
