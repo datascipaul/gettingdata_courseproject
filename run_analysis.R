@@ -64,4 +64,4 @@ final_output <- predata %>% group_by(subjectactivity) %>% summarize_each(funs(me
 final_output$subjectactivity<-as.factor(final_output$subjectactivity)
 
 #save data frame to file
-write.csv(final_output,"getdata_project_output.csv")
+write.table(final_output,"getdata_project_output.txt",row.name=FALSE)
