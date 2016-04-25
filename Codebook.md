@@ -19,7 +19,7 @@ Aside from variables which described the observation condition (subject id, acti
 
 Processed Data:
 
-Columnns are variables.  The first column, subjectactivity, is a factor vector with a number followed by a plain english activity, with levels indicating the subject ID and the activity performed in the given row.  The remaining columns are numeric vectors which contain the average value of each variable for that subject/activity pair (calculated as described in data processing).
+Columnns are variables.  The first column, subjectactivity, is a factor variable with a number followed by ah activity, with levels indicating the subject ID and the activity performed in the given row.  The remaining columns are numeric variables which contain the average value of each variable for that subject/activity pair (calculated as described in data processing).
 
 Data Source:
 
