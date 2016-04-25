@@ -18,6 +18,6 @@ The script is written to work on the data provided in the assignment.  It requir
 
 4. The user has installed the dplyr package
 
-When run, the script will pull data from the test and train folders, restructure and combine them, remove all variables except for the basic identifiers (subjectid, activity, and partition) that do not include the phrase "mean" or "std", and then create a new data frame which calculates the means of the mean and std variables at the subjectid/activity level.  It saves this data frame to a .csv file in the working directory.
+When run, the script will pull data from the test and train folders, restructure and combine them, remove all variables except for the basic identifiers (subjectid, activity, and partition) that do not include the phrase "mean" or "std", and then create a new data frame which calculates the means of the mean and std variables at the subjectid/activity level.  It saves this data frame to a .txt file in the working directory.
 
 In the resulting data frame, each column is a variable, and each row an obersvation.  I interpreted the instruction "average of each variable for each activity and each subject" to be asking for the mean of each variable for each subject/activity pair, which is why column one aggregatates subject and activity - for that question, that level of detailed appeared to be the correct unit of measure.
